@@ -248,7 +248,11 @@ require('lualine').setup {
         color_modified = nil, -- changes diff's modified foreground color
         color_removed = nil, -- changes diff's removed foreground color
         symbols = {added = '+', modified = '~', removed = '-'} -- changes diff symbols
-      }
+      },
+      'filetype',
+      'encoding',
+      'fileformat',
+      'diagnostics',
     },
     lualine_y = {'progress'},
     lualine_z = {'location'}
